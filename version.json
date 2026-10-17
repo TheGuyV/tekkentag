@@ -1,35 +1,35 @@
 {
-  "version": "0.2.1",
+  "version": "0.2.2",
   "url": "https://tekkentag.seibucup.online/#download",
-  "notes": "입력 지연 감소 (화면 1프레임 앞당김, 롤백 입력 지연 자동 1~3), 기본 키 A/S/Shift/Z/X",
+  "notes": "전체 화면: 런처가 있는 모니터에 그 모니터 해상도 그대로 독점 전체 화면 (모니터 2대에서 작게/느리게 뜨던 문제), 예비로 테두리 없는 전체 화면 메뉴 추가",
   "files": [
     {
       "path": "TTTLauncher.exe",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.1/TTTLauncher.exe",
-      "sha256": "d4039f20ba24d0337520bcb6c3650f594ac837c41dac7d413c861531a1206e43",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.2/TTTLauncher.exe",
+      "sha256": "bab0f90132be858e137c138da5d691eef0680cbc88cc032bfdc775691199f40c",
       "size": 113126520
     },
     {
       "path": "netplay/tttnet.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.1/tttnet.lua",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.2/tttnet.lua",
       "sha256": "33bc7fa45125143b04cddc98489b7ace4f439a8182f28b161d5e48ef5735a902",
       "size": 47629
     },
     {
       "path": "netplay/tttrb.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.1/tttrb.lua",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.2/tttrb.lua",
       "sha256": "4880636b601018a14a3f1806296e5dc1897030aec413b1649ef91101dd7fdb25",
       "size": 56191
     },
     {
       "path": "netplay/tttkeys.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.1/tttkeys.lua",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.2/tttkeys.lua",
       "sha256": "286e10c90e2cefda7f170eecad7d45f4ccf8558760ebe50fd9c620a40bbf6673",
       "size": 2581
     },
     {
       "path": "netplay/tttsolo.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.1/tttsolo.lua",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.2/tttsolo.lua",
       "sha256": "bbdcf8afc6138aba6af7bae2c49e497c453f66a700333cd184b543a28b01dca2",
       "size": 2354
     }
