@@ -1,37 +1,37 @@
 {
-  "version": "0.2.2",
+  "version": "0.2.3",
   "url": "https://tekkentag.seibucup.online/#download",
-  "notes": "전체 화면: 런처가 있는 모니터에 그 모니터 해상도 그대로 독점 전체 화면 (모니터 2대에서 작게/느리게 뜨던 문제), 예비로 테두리 없는 전체 화면 메뉴 추가",
+  "notes": "Lua 파일에 비영리 팬 사이트 고지 추가",
   "files": [
     {
       "path": "TTTLauncher.exe",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.2/TTTLauncher.exe",
-      "sha256": "bab0f90132be858e137c138da5d691eef0680cbc88cc032bfdc775691199f40c",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.3/TTTLauncher.exe",
+      "sha256": "8413f1b948f51a1d5f8ef18e3e773e5e5818135d8ef7633537ad6859a04f741f",
       "size": 113126520
     },
     {
       "path": "netplay/tttnet.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.2/tttnet.lua",
-      "sha256": "33bc7fa45125143b04cddc98489b7ace4f439a8182f28b161d5e48ef5735a902",
-      "size": 47629
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.3/tttnet.lua",
+      "sha256": "a40851177cb9e921191167a03627ba4ceb0c5e328fb1f20504bd0c77ca7a990e",
+      "size": 48022
     },
     {
       "path": "netplay/tttrb.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.2/tttrb.lua",
-      "sha256": "4880636b601018a14a3f1806296e5dc1897030aec413b1649ef91101dd7fdb25",
-      "size": 56191
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.3/tttrb.lua",
+      "sha256": "4632de05a243cc7932c2b84fe948caff14044029c3a4aae41c5329f7e45b1835",
+      "size": 56584
     },
     {
       "path": "netplay/tttkeys.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.2/tttkeys.lua",
-      "sha256": "286e10c90e2cefda7f170eecad7d45f4ccf8558760ebe50fd9c620a40bbf6673",
-      "size": 2581
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.3/tttkeys.lua",
+      "sha256": "bb68b38d0e03b0ee6e75ef7f7cbcc0493033c58dc1f1573053634a5bd0de207a",
+      "size": 2974
     },
     {
       "path": "netplay/tttsolo.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.2/tttsolo.lua",
-      "sha256": "bbdcf8afc6138aba6af7bae2c49e497c453f66a700333cd184b543a28b01dca2",
-      "size": 2354
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.3/tttsolo.lua",
+      "sha256": "4bafa14e2b8159d60034c271a24032c34c41178064a563bf84f613bdb20cf632",
+      "size": 2747
     }
   ]
 }
