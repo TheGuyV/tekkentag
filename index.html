@@ -93,7 +93,7 @@
 <section style="padding-top:0"><div class="wrap grid2">
   <div class="card"><h3 data-en="Start in 4 steps">4단계로 시작하기</h3><ol class="steps">
     <li><b>1</b><div data-en="Unpack<span>Unpack the whole zip into a folder and start TTTLauncher.exe (no .NET install)</span>">압축 풀기<span>폴더에 모두 풀고 TTTLauncher.exe 실행 (.NET 설치 필요 없음)</span></div></li>
-    <li><b>2</b><div data-en="Add the ROM<span>Drop your tektagt.zip (MAME 0.289, world set) on the window · not included</span>">롬 넣기<span>가지고 있는 tektagt.zip (MAME 0.289, 세계판)을 창에 끌어다 놓기 · 롬은 미포함</span></div></li>
+    <li><b>2</b><div data-en="Add the ROM<span>Drop your tektagt.zip (MAME 0.289, World TEG2/VER.C1 - <a href=#rom>details</a>) on the window · not included</span>">롬 넣기<span>가지고 있는 tektagt.zip (MAME 0.289, 세계판 TEG2/VER.C1 · <a href="#rom">자세히</a>)을 창에 끌어다 놓기 · 롬은 미포함</span></div></li>
     <li><b>3</b><div data-en="Keys<span>Set from the start (below); change them with [Keys]</span>">키 확인<span>기본 키가 이미 설정되어 있습니다 (오른쪽 표) · 바꾸려면 [키 설정]</span></div></li>
     <li><b>4</b><div data-en="Fight<span>Create a 1v1 room, join, watch, or ⚡ Quick match</span>">대전<span>1:1 방 만들기 · 참가 · 관전 · ⚡빠른 대전</span></div></li>
   </ol></div>
@@ -107,6 +107,25 @@
   </table></div>
 </div></section>
 
+<section id="rom" style="padding-top:0"><div class="wrap"><div class="card romcard">
+  <h3 data-en="The game ROM">게임 롬 정보</h3>
+  <p class="sub" data-en="The launcher plays one set only: <b>tektagt</b> as MAME 0.289 has it. ROMs are not included; use the set you own.">런처는 MAME 0.289의 <b>tektagt</b> 세트 하나만 씁니다. 롬은 배포하지 않으니 가지고 계신 롬을 쓰세요.</p>
+  <dl class="rommeta">
+    <div><dt data-en="Set (zip name)">세트 (zip 이름)</dt><dd class="mono">tektagt.zip</dd></div>
+    <div><dt data-en="Version">버전</dt><dd data-en="World · <span class=mono>TEG2/VER.C1</span> · set 1">세계판 · <span class="mono">TEG2/VER.C1</span> · set 1</dd></div>
+    <div><dt data-en="MAME title">MAME 표기</dt><dd class="mono">Tekken Tag Tournament (World, TEG2/VER.C1, set 1)</dd></div>
+    <div><dt data-en="Board">기판</dt><dd data-en="Namco System 12 (1999) · no BIOS needed">남코 System 12 (1999) · BIOS 필요 없음</dd></div>
+    <div><dt data-en="Files">파일</dt><dd data-en="15 · 80,216,064 bytes unpacked">15개 · 압축 풀면 80,216,064 바이트</dd></div>
+  </dl>
+  <p class="crchead" data-en="CRC32 of the 15 files">15개 파일의 CRC32</p>
+  <ul class="crclist"><li>c6da0717</li><li>25a1d2ff</li><li>c962a373</li><li>badb7dcf</li><li>b3d56124</li><li>2434ceb6</li><li>6e5c3428</li><li>21ce9dfa</li><li>88b3823c</li><li>36df0867</li><li>03a76765</li><li>6d6947d1</li><li>67d0c469</li><li>4bd99104</li><li>dbc74fff</li></ul>
+  <ul class="romnotes">
+    <li data-en="The launcher checks the zip by <b>CRC32</b>, not by file names: an older set with other names (teg1rom0e.9 for teg1_rom0e.ic9 ...) works as long as all 15 CRCs are in it. A file with another name is copied in as tektagt.zip.">런처는 파일 이름이 아니라 <b>CRC32</b>로 확인합니다. 예전 이름(teg1_rom0e.ic9 대신 teg1rom0e.9 등)의 롬도 15개 CRC가 모두 있으면 됩니다. 다른 이름의 zip은 tektagt.zip 으로 복사해 넣습니다.</li>
+    <li data-en="Other versions (US, Japan, World set 2) do not mix with it online: everybody plays the same set.">다른 판(미국판, 일본판, 세계판 set 2)은 온라인에서 함께 쓸 수 없습니다. 모두 같은 세트로 대전합니다.</li>
+    <li data-en="<span class=mono>tektagtac1.zip</span> (World set 2 under its old name) lacks <span class=mono>teg1.11s</span> (the sub CPU) and does not start in MAME 0.289."><span class="mono">tektagtac1.zip</span> (세계판 set 2의 예전 이름)에는 보조 CPU 롬 <span class="mono">teg1.11s</span>가 없어 MAME 0.289에서 실행되지 않습니다.</li>
+  </ul>
+</div></div></section>
+
 <section style="padding-top:0"><div class="wrap grid2">
   <div class="card tips"><h3 data-en="Even less lag">지연을 더 줄이려면</h3><ul>
     <li data-en="<b>Full screen</b>: launcher Game menu → Start in full screen.">런처 게임 메뉴 → <b>전체 화면으로 시작</b></li>
@@ -115,7 +134,7 @@
     <li data-en="A <b>wired</b> connection beats Wi-Fi for steady rollbacks.">와이파이보다 <b>유선 랜</b>이 되감기가 적습니다</li>
   </ul></div>
   <div class="card faq" id="faq"><h3 data-en="FAQ">자주 묻는 질문</h3>
-    <details><summary data-en="Where do I get the ROM?">롬은 어디서 구하나요?</summary><p data-en="It is not included and cannot be shared here. Use the tektagt set (MAME 0.289) you own; the launcher checks its 15 files by CRC.">배포하지 않습니다. 가지고 계신 tektagt (MAME 0.289) 롬을 쓰세요. 런처가 15개 파일을 CRC로 확인합니다.</p></details>
+    <details><summary data-en="Where do I get the ROM?">롬은 어디서 구하나요?</summary><p data-en="It is not included and cannot be shared here. Use the tektagt set (MAME 0.289, World TEG2/VER.C1) you own; the launcher checks its 15 files by CRC (<a href=#rom>list</a>).">배포하지 않습니다. 가지고 계신 tektagt (MAME 0.289, 세계판 TEG2/VER.C1) 롬을 쓰세요. 런처가 15개 파일을 CRC로 확인합니다 (<a href="#rom">목록</a>).</p></details>
     <details><summary data-en="What PC do I need?">PC 사양은 어느 정도 필요한가요?</summary><p data-en="Windows 10/11. Rollback plays frames again when a guess was wrong, so a faster CPU means smoother play; a slower PC picks a 2-frame delay by itself.">Windows 10/11. 예측이 틀리면 프레임을 다시 계산하므로 CPU가 빠를수록 부드럽습니다. PC가 버거우면 입력 지연을 자동으로 2프레임으로 올립니다.</p></details>
     <details><summary data-en="What does &quot;1F R2&quot; at the bottom mean?">화면 아래 "1F R2"는 무엇인가요?</summary><p data-en="Your input delay (1 frame) and the deepest recent rollback (2 frames).">내 입력 지연(1프레임)과 최근 가장 깊은 되감기(2프레임)입니다.</p></details>
     <details><summary data-en="Can I play against the CPU?">CPU와 할 수 있나요?</summary><p data-en="While waiting for an opponent, [Play while waiting] starts a game on your own.">상대를 기다리는 동안 [대기중 게임]으로 혼자 할 수 있습니다.</p></details>
@@ -126,7 +145,7 @@
   <h2 data-en="Download">다운로드</h2>
   <p class="sub" data-en="One zip: the launcher, MAME (rollback build) and the netplay scripts. No install.">압축 파일 하나에 런처, MAME(롤백 빌드), 넷플레이 스크립트가 들어 있습니다. 설치 없음.</p>
   <a class="btn p dlbtn" href="#download" data-en="Download TTTOnline.zip">TTTOnline.zip 다운로드</a>
-  <div class="size">v0.2.5 · 57 MB · Windows 10/11</div>
+  <div class="size">v0.2.6 · 57 MB · Windows 10/11</div>
   <p class="note" id="dlnote" hidden data-en="The download opens soon.">다운로드는 곧 열립니다.</p>
 </div></div></section>
 

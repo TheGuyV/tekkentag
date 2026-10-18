@@ -1,37 +1,43 @@
 {
-  "version": "0.2.5",
+  "version": "0.2.6",
   "url": "https://tekkentag.seibucup.online/#download",
-  "notes": "컴퓨터 난이도 MEDIUM, 게임 메뉴에 DX12 전체 화면(시험) 추가",
+  "notes": "롤백 때 소리가 갈리던 문제 수정 (MAME 갱신), 롬 버전 안내",
   "files": [
     {
       "path": "TTTLauncher.exe",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.5/TTTLauncher.exe",
-      "sha256": "d2bcd5890ceee379beeb1c269fb17f88e2b6bea3aa769670aa990ba00820c1ef",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.6/TTTLauncher.exe",
+      "sha256": "7c3d96d0a53240d49a041d888746160d519927f48f32f1c3b7904011024f9dd1",
       "size": 113622136
     },
     {
       "path": "netplay/tttnet.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.5/tttnet.lua",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.6/tttnet.lua",
       "sha256": "ca4dc78d45673a3b82fd12bc858c4e090e8ed4b775b826dd4083d111e36a2892",
       "size": 48232
     },
     {
       "path": "netplay/tttrb.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.5/tttrb.lua",
-      "sha256": "dc29ca96c9f5d3629602ccc3edc667a6f25ace163aeb176bfa904a01de0f2e49",
-      "size": 56794
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.6/tttrb.lua",
+      "sha256": "f1ed05a0423bb4ca2cb3b91307be23af85b1d72c62f168e084bffbce09f157c5",
+      "size": 56863
     },
     {
       "path": "netplay/tttkeys.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.5/tttkeys.lua",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.6/tttkeys.lua",
       "sha256": "bb68b38d0e03b0ee6e75ef7f7cbcc0493033c58dc1f1573053634a5bd0de207a",
       "size": 2974
     },
     {
       "path": "netplay/tttsolo.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.5/tttsolo.lua",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.6/tttsolo.lua",
       "sha256": "c48ddea74441fd8c68c572b6e5add6a790ed8e39e1a6b807eb78ef3ee41abb77",
       "size": 2833
+    },
+    {
+      "path": "netplay/mame.exe",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.6/mame.exe",
+      "sha256": "ffc27e27193fa85257a04f1a5060952549068b5c30e51b3ba903a4c2bbe2379c",
+      "size": 56330752
     }
   ]
 }

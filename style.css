@@ -111,3 +111,14 @@ footer a { color: var(--dim); }
   .row .val { text-align: left; }
   .menu a:not(.dl) { display: none; }
 }
+
+.romcard .sub { color: var(--dim); margin: 0 0 16px; }
+.rommeta { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(170px, 100%), 1fr)); gap: 10px 20px; margin: 0 0 18px; }
+.rommeta div { border-left: 3px solid var(--acc2); padding-left: 12px; }
+.rommeta dt { font-size: 12px; letter-spacing: .04em; color: var(--dim); }
+.rommeta dd { margin: 2px 0 0; font-weight: 600; overflow-wrap: anywhere; }
+.crchead { font-size: 12px; letter-spacing: .04em; color: var(--dim); margin: 0 0 8px; }
+.crclist { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.crclist li { font: 700 14px "IBM Plex Mono", ui-monospace, monospace; color: var(--acc); background: #fafbfc; border: 1px solid var(--line); border-radius: 8px; padding: 5px 10px; font-variant-numeric: tabular-nums; }
+.romnotes { margin: 16px 0 0; padding-left: 18px; color: var(--dim); font-size: 14px; }
+.romnotes li { margin: 6px 0; }
