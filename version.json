@@ -1,37 +1,37 @@
 {
-  "version": "0.2.4",
+  "version": "0.2.5",
   "url": "https://tekkentag.seibucup.online/#download",
-  "notes": "컴퓨터 대전 2선승 / 대전 3선승, 준비·시작 버튼 깜빡임",
+  "notes": "컴퓨터 난이도 MEDIUM, 게임 메뉴에 DX12 전체 화면(시험) 추가",
   "files": [
     {
       "path": "TTTLauncher.exe",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.4/TTTLauncher.exe",
-      "sha256": "85dc9777e9e0edecffdda11f32cdfe7c2c4e5d13b82483cf2828ab16faaac3f7",
-      "size": 113126520
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.5/TTTLauncher.exe",
+      "sha256": "d2bcd5890ceee379beeb1c269fb17f88e2b6bea3aa769670aa990ba00820c1ef",
+      "size": 113622136
     },
     {
       "path": "netplay/tttnet.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.4/tttnet.lua",
-      "sha256": "39820eaa9cb5ed99a3c10fbdad36638ca235714d1291fe2e4ce6fc5d63a2d14c",
-      "size": 48181
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.5/tttnet.lua",
+      "sha256": "ca4dc78d45673a3b82fd12bc858c4e090e8ed4b775b826dd4083d111e36a2892",
+      "size": 48232
     },
     {
       "path": "netplay/tttrb.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.4/tttrb.lua",
-      "sha256": "e842be84ae98a809a7362d443a3478acf3c9a886cc02d8479f14eb4819c17e9e",
-      "size": 56743
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.5/tttrb.lua",
+      "sha256": "dc29ca96c9f5d3629602ccc3edc667a6f25ace163aeb176bfa904a01de0f2e49",
+      "size": 56794
     },
     {
       "path": "netplay/tttkeys.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.4/tttkeys.lua",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.5/tttkeys.lua",
       "sha256": "bb68b38d0e03b0ee6e75ef7f7cbcc0493033c58dc1f1573053634a5bd0de207a",
       "size": 2974
     },
     {
       "path": "netplay/tttsolo.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.4/tttsolo.lua",
-      "sha256": "997dd520270ed0a50f657761f155064f9bf0bace068fc0238455050f6a05f567",
-      "size": 2805
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.5/tttsolo.lua",
+      "sha256": "c48ddea74441fd8c68c572b6e5add6a790ed8e39e1a6b807eb78ef3ee41abb77",
+      "size": 2833
     }
   ]
 }
