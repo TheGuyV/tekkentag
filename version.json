@@ -1,47 +1,47 @@
 {
-  "version": "0.2.7",
+  "version": "0.2.8",
   "url": "https://tekkentag.seibucup.online/#download",
-  "notes": "숨겨진 캐릭터까지 전 캐릭터 해금 (혼자하기·온라인 대전)",
+  "notes": "세이부 오락실 옆 오락실 연동",
   "files": [
     {
       "path": "TTTLauncher.exe",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.7/TTTLauncher.exe",
-      "sha256": "3a7fbc0bbb1337909a5dffdc33832b4a256d2ecfd29816baa93586d4ab397616",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.8/TTTLauncher.exe",
+      "sha256": "653aa45034f5b47c0aa12eabcbe193c2486ec47c3ef73e80bfd6088f7da6291f",
       "size": 113622136
     },
     {
       "path": "netplay/tttnet.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.7/tttnet.lua",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.8/tttnet.lua",
       "sha256": "733468b05c54e2db0373b0d05ccafec6d90746e6a82c68dfdb40a536e7f1983c",
       "size": 48232
     },
     {
       "path": "netplay/tttrb.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.7/tttrb.lua",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.8/tttrb.lua",
       "sha256": "8de48fdd3e16247e4f728be8f6bf7483dc2ce3ddef63eced8ce10ca13873b72e",
       "size": 56863
     },
     {
       "path": "netplay/tttkeys.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.7/tttkeys.lua",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.8/tttkeys.lua",
       "sha256": "bb68b38d0e03b0ee6e75ef7f7cbcc0493033c58dc1f1573053634a5bd0de207a",
       "size": 2974
     },
     {
       "path": "netplay/tttsolo.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.7/tttsolo.lua",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.8/tttsolo.lua",
       "sha256": "c48ddea74441fd8c68c572b6e5add6a790ed8e39e1a6b807eb78ef3ee41abb77",
       "size": 2833
     },
     {
       "path": "netplay/at28c16",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.7/at28c16",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.8/at28c16",
       "sha256": "7d4b151f9dc79c773abdc981c0cd40d71ad74fe0771c55bfc09573ec7f2fa34f",
       "size": 2080
     },
     {
       "path": "netplay/mame.exe",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.7/mame.exe",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.8/mame.exe",
       "sha256": "ffc27e27193fa85257a04f1a5060952549068b5c30e51b3ba903a4c2bbe2379c",
       "size": 56330752
     }
