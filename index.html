@@ -32,7 +32,7 @@
 
 <header class="wrap hero">
   <div>
-    <span class="pill"><b></b><span data-en="v0.2 · rollback netcode">v0.2 · 롤백 넷코드</span></span>
+    <span class="pill"><b></b><span data-en="v0.2.9 · rollback netcode, UDP inputs">v0.2.9 · 롤백 넷코드 · UDP 입력</span></span>
     <h1 data-en="Input delay down to <em>1 frame</em>,<br>arcade Tekken Tag online">입력 지연 <em>1프레임</em>까지,<br>오락실 철권 태그 온라인</h1>
     <p class="lead" data-en="The Tekken Tag Tournament arcade board runs as it is in MAME, with the netcode rebuilt as rollback. A slow line never stops the game, and the game answers a frame or two sooner than the board itself.">철권 태그 토너먼트 기판을 MAME로 그대로 돌리고, 넷코드는 롤백으로 다시 만들었습니다. 상대 회선이 늦어도 게임은 멈추지 않고, 게임 반응도 원래 기판보다 빨라졌습니다.</p>
     <div class="cta">
@@ -61,8 +61,8 @@
     <div class="legend"><span style="--c:var(--acc2)" data-en="button pressed">버튼 누름</span><span style="--c:var(--wait)" data-en="input delay">입력 지연</span><span style="--c:var(--acc)" data-en="on screen">화면에 반영</span><span style="--c:var(--rb)" data-en="rollback">되감기</span></div>
   </div>
   <div class="grid3" style="margin-top:18px">
-    <div class="card"><h3 data-en="No waiting">기다리지 않음</h3><p class="sub" style="margin:0" data-en="When the other player's input is late, the game guesses it and goes on; it never freezes for the line.">상대 입력이 늦으면 예측해서 계속 진행합니다. 회선 때문에 화면이 멈추지 않습니다.</p></div>
-    <div class="card"><h3 data-en="Put right at once">바로 바로잡기</h3><p class="sub" style="margin:0" data-en="A wrong guess is put right by going back to that frame and playing it again, muted and unseen.">예측이 틀리면 그 프레임으로 되감아, 소리와 화면 없이 다시 계산해 바로잡습니다.</p></div>
+    <div class="card"><h3 data-en="No waiting">기다리지 않음</h3><p class="sub" style="margin:0" data-en="When the other player's input is late, the game guesses it and goes on. The PC that runs ahead slows down a touch until both are level, so the guesses stay short (1-2 frames) on both sides.">상대 입력이 늦으면 예측해서 계속 진행합니다. 앞서 나간 쪽이 아주 살짝 느려져 양쪽을 맞추므로, 예측이 양쪽 모두 1~2프레임으로 짧게 유지됩니다.</p></div>
+    <div class="card"><h3 data-en="Put right at once">바로 바로잡기</h3><p class="sub" style="margin:0" data-en="Inputs go over UDP, each one sent several times over, so a lost packet is made up by the next instead of holding the game back. A wrong guess is put right by playing those frames again, unseen and unheard.">입력은 UDP로 여러 번 겹쳐 보내, 패킷 하나가 사라져도 다음 패킷이 채웁니다. 예측이 틀리면 그 프레임들을 화면과 소리 없이 다시 계산해 바로잡습니다.</p></div>
     <div class="card"><h3 data-en="Faster than the board">기판보다 빠른 반응</h3><p class="sub" style="margin:0" data-en="The game sees each input a frame sooner and shows each picture a frame sooner: 5 frames to 3.">게임이 입력을 한 프레임 일찍 읽고, 완성된 화면도 한 프레임 일찍 보여 줍니다. 5프레임 → 3프레임.</p></div>
   </div>
 </div></section>
@@ -86,6 +86,8 @@
       <li data-en="<b>Watch</b> a match; a late watcher catches up by itself.">경기 <b>관전</b> · 늦게 들어와도 알아서 따라잡기</li>
       <li data-en="<b>Updates itself</b> when a new version comes out.">새 버전이 나오면 <b>자동 업데이트</b></li>
       <li data-en="<b>Every character</b> from the start, the hidden ones too.">숨겨진 캐릭터까지 <b>전 캐릭터</b>를 처음부터 선택</li>
+      <li data-en="Online <b>best of 5</b> (3 rounds to win); against the CPU best of 3 at <b>MEDIUM</b>.">온라인 대전 <b>5판 3선승</b> · 컴퓨터 대전 3판 2선승 (난이도 <b>MEDIUM</b>)</li>
+      <li data-en="[Ready] and [Start] <b>blink</b> when it is your turn to press them.">누를 차례가 되면 <b>준비·시작 버튼이 깜빡임</b></li>
       <li data-en="<b>Full screen</b> from the start: Game menu (a frame less than a window).">게임 메뉴의 <b>전체 화면으로 시작</b> (창 모드보다 1프레임 빠름)</li>
     </ul>
   </div>
@@ -133,12 +135,15 @@
     <li data-en="<b>NVIDIA</b>: Control Panel → Manage 3D settings → mame.exe → Low Latency Mode: <b>Ultra</b>.">엔비디아 제어판 → 3D 설정 관리 → mame.exe → 짧은 지연 시간 모드 <b>울트라</b></li>
     <li data-en="A <b>144 Hz or faster monitor</b> (G-SYNC / FreeSync) shows each picture sooner.">144Hz 이상 <b>고주사율 모니터</b> (G-SYNC / FreeSync)</li>
     <li data-en="A <b>wired</b> connection beats Wi-Fi for steady rollbacks.">와이파이보다 <b>유선 랜</b>이 되감기가 적습니다</li>
+    <li data-en="<b>DX12 full screen</b> (experimental, Game menu): try it against the usual full screen on your PC.">게임 메뉴의 <b>DX12 전체 화면</b>(시험): 내 PC에서 기본 전체 화면과 비교해 보세요</li>
   </ul></div>
   <div class="card faq" id="faq"><h3 data-en="FAQ">자주 묻는 질문</h3>
     <details><summary data-en="Where do I get the ROM?">롬은 어디서 구하나요?</summary><p data-en="It is not included and cannot be shared here. Use the tektagt set (MAME 0.289, World TEG2/VER.C1) you own; the launcher checks its 15 files by CRC (<a href=#rom>list</a>).">배포하지 않습니다. 가지고 계신 tektagt (MAME 0.289, 세계판 TEG2/VER.C1) 롬을 쓰세요. 런처가 15개 파일을 CRC로 확인합니다 (<a href="#rom">목록</a>).</p></details>
     <details><summary data-en="What PC do I need?">PC 사양은 어느 정도 필요한가요?</summary><p data-en="Windows 10/11. Rollback plays frames again when a guess was wrong, so a faster CPU means smoother play; a slower PC picks a 2-frame delay by itself.">Windows 10/11. 예측이 틀리면 프레임을 다시 계산하므로 CPU가 빠를수록 부드럽습니다. PC가 버거우면 입력 지연을 자동으로 2프레임으로 올립니다.</p></details>
     <details><summary data-en="What does &quot;1F R2&quot; at the bottom mean?">화면 아래 "1F R2"는 무엇인가요?</summary><p data-en="Your input delay (1 frame) and the deepest recent rollback (2 frames).">내 입력 지연(1프레임)과 최근 가장 깊은 되감기(2프레임)입니다.</p></details>
-    <details><summary data-en="Can I play against the CPU?">CPU와 할 수 있나요?</summary><p data-en="While waiting for an opponent, [Play while waiting] starts a game on your own.">상대를 기다리는 동안 [대기중 게임]으로 혼자 할 수 있습니다.</p></details>
+    <details><summary data-en="Can I play against the CPU?">CPU와 할 수 있나요?</summary><p data-en="While waiting for an opponent, [Play while waiting] starts a game on your own: best of 3 at MEDIUM, every character open.">상대를 기다리는 동안 [대기중 게임]으로 혼자 할 수 있습니다. 3판 2선승, 난이도 MEDIUM, 전 캐릭터 선택 가능.</p></details>
+    <details><summary data-en="Do I need to open a port?">포트를 열어야 하나요?</summary><p data-en="No - you only connect out to the server (TCP and UDP 47800). Where UDP is blocked (some office or school networks) the game goes over TCP only and still plays, with more rollbacks on a lossy line. Only the host of a direct game opens TCP 7310.">아니요. 서버(TCP·UDP 47800)로 나가는 연결만 씁니다. 회사·학교망처럼 UDP가 막힌 곳에서는 TCP로만 동작해서 대전은 되지만, 패킷이 잘 사라지는 회선에서는 되감기가 늘 수 있습니다. 직접 연결의 방장만 TCP 7310을 엽니다.</p></details>
+    <details><summary data-en="What is sent to the server after a match?">경기 뒤 서버에 무엇이 남나요?</summary><p data-en="One line about how the connection went - rollback counts and depth, waits, round trip, whether UDP worked - with your nickname, to find and fix bad connections. No game inputs or recordings.">연결이 어땠는지 한 줄이 닉네임과 함께 남습니다. 되감기 횟수와 깊이, 대기, 왕복 시간, UDP 작동 여부 같은 내용이고, 나쁜 연결을 찾아 고치는 데만 씁니다. 게임 입력이나 녹화는 남기지 않습니다.</p></details>
   </div>
 </div></section>
 
