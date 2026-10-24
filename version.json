@@ -1,47 +1,47 @@
 {
-  "version": "0.2.9",
+  "version": "0.2.10",
   "url": "https://tekkentag.seibucup.online/#download",
-  "notes": "롤백 개선: UDP 입력 전송, 속도로 시간 맞추기(깊은 되감기 감소), 대전 기록 서버 전송",
+  "notes": "저사양 모드, 방에서 핑·상대 예상 핑 표시, 대전 중 UDP/TCP 표시, 경기 뒤 연결 안내",
   "files": [
     {
       "path": "TTTLauncher.exe",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.9/TTTLauncher.exe",
-      "sha256": "15d0e7b71ce6496ef00bca3380db7fb149b6f8a0db62ef5894bf82255b04ec9f",
-      "size": 113626232
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.10/TTTLauncher.exe",
+      "sha256": "f0f8e594e04dad34a80f3d4fa952bddf344cffcf7305c2daf8f378a7fc97039a",
+      "size": 113634424
     },
     {
       "path": "netplay/tttnet.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.9/tttnet.lua",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.10/tttnet.lua",
       "sha256": "195e5511cc0ecfa1950ca0c016aa43883f4412598c062719eb46f7ac5bdfbd3b",
       "size": 48232
     },
     {
       "path": "netplay/tttrb.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.9/tttrb.lua",
-      "sha256": "c4d082b4ee72a3965b5afc9bb976adb0498586f2b7b7a59d44437c37e2c27b8d",
-      "size": 63115
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.10/tttrb.lua",
+      "sha256": "6593b054d6c5b1bee72fd75b4e9a18404233796d4e56cbd5f7315e661b9b9b90",
+      "size": 63656
     },
     {
       "path": "netplay/tttkeys.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.9/tttkeys.lua",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.10/tttkeys.lua",
       "sha256": "bb68b38d0e03b0ee6e75ef7f7cbcc0493033c58dc1f1573053634a5bd0de207a",
       "size": 2974
     },
     {
       "path": "netplay/tttsolo.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.9/tttsolo.lua",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.10/tttsolo.lua",
       "sha256": "c48ddea74441fd8c68c572b6e5add6a790ed8e39e1a6b807eb78ef3ee41abb77",
       "size": 2833
     },
     {
       "path": "netplay/at28c16",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.9/at28c16",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.10/at28c16",
       "sha256": "7d4b151f9dc79c773abdc981c0cd40d71ad74fe0771c55bfc09573ec7f2fa34f",
       "size": 2080
     },
     {
       "path": "netplay/mame.exe",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.9/mame.exe",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.10/mame.exe",
       "sha256": "de4d2ba56d66edd780df898596d38867c440ee4cff2b20cb31c50fa3ba2f64dc",
       "size": 56363008
     }
