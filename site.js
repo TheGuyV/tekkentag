@@ -11,7 +11,9 @@
     els.forEach(e => { e.innerHTML = l === 'en' ? e.dataset.en : e.dataset.ko; });
     root.lang = l;
     btn.textContent = l === 'en' ? '한국어' : 'English';
-    document.title = l === 'en' ? 'Tekken Tag Tournament Online - rollback netcode' : '철권 태그 토너먼트 온라인 · 롤백 넷코드';
+    const bt = document.body.dataset;
+    document.title = l === 'en' ? (bt.titleEn || 'Tekken Tag Tournament Online - rollback netcode') : (bt.titleKo || '철권 태그 토너먼트 온라인 · 롤백 넷코드');
+    document.dispatchEvent(new CustomEvent('ttt-lang', { detail: l }));
     try { localStorage.setItem('ttt-lang', l); } catch (e) { }
   }
   let saved = null;

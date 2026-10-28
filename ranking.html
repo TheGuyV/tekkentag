@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>철권 태그 랭킹</title>
+<meta name="description" content="철권 태그 토너먼트 온라인 랭킹. 철권 5 계급(초보부터 철권신까지)과 실력 점수(Elo).">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;700&family=IBM+Plex+Sans+KR:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-title-ko="철권 태그 랭킹" data-title-en="Tekken Tag Ranking">
+<div class="fam"><div class="wrap">
+  <span data-en="Family sites">패밀리 사이트</span>
+  <a href="https://seibucup.online/" data-en="Seibu Cup Soccer Online">세이부 컵 사커 온라인</a>
+  <a href="https://twc98.seibucup.online/" data-en="Tecmo World Cup '98 Online">테크모 월드컵 98 온라인</a>
+  <a href="https://rg2.seibucup.online/" data-en="Run and Gun 2 Online">런앤건2 온라인</a>
+  <b data-en="Tekken Tag Online">철권 태그 온라인</b>
+</div></div>
+
+<nav><div class="wrap">
+  <a class="logo" href="index.html"><i></i><span data-en="Tekken Tag Online">철권 태그 온라인</span></a>
+  <div class="menu">
+    <a href="index.html#start" data-en="Start">시작하기</a>
+    <a href="index.html#faq" data-en="FAQ">자주 묻는 질문</a>
+    <a href="ranking.html" data-en="Ranking">랭킹</a>
+    <button id="lang" type="button">English</button>
+    <a class="dl dlbtn" href="index.html#download" data-en="Download">다운로드</a>
+  </div>
+</div></nav>
+
+<section class="wrap rkhead">
+  <h1 data-en="Ranking">랭킹</h1>
+  <p class="sub" data-en="Online 1v1 matches through the server, by rank points (then skill rating). Players with no match in 90 days drop off the list, their points kept.">서버를 거친 온라인 1:1 대전 기준, 계급 점수 순(같으면 실력 점수 순)입니다. 90일 동안 대전이 없으면 목록에서만 빠지고 점수는 남습니다.</p>
+  <p class="note" id="rkupdated"></p>
+</section>
+
+<section class="wrap" style="padding-top:0"><div class="card rkcard">
+  <div class="tscroll"><table class="rk" id="rktable">
+    <thead><tr><th>#</th><th data-en="Player">닉네임</th><th data-en="Rank">계급</th><th data-en="Rank pts">계급 점수</th><th data-en="Skill (Elo)">실력 (Elo)</th><th data-en="W-L">전적</th><th data-en="Last match">마지막 대전</th></tr></thead>
+    <tbody id="rkbody"><tr><td colspan="7" class="rkempty" data-en="Loading...">불러오는 중…</td></tr></tbody>
+  </table></div>
+</div></section>
+
+<section class="wrap" style="padding-top:0"><div class="grid2">
+  <div class="card"><h3 data-en="How points work">점수 규칙</h3><ul class="romnotes">
+    <li data-en="Win: +15 to +50 rank points, loss: -10 to -35 - more for beating a higher rank, less for a lower one.">이기면 계급 점수 +15~+50, 지면 −10~−35. 높은 계급을 이길수록 많이 얻고, 낮은 계급에게 지면 많이 잃습니다.</li>
+    <li data-en="Up to 3rd Dan you never drop a rank; above it you drop one when your points fall 50 below the rank's line.">3단까지는 강등이 없습니다. 그 위로는 계급 하한선보다 50점 넘게 내려가야 한 단계 내려갑니다.</li>
+    <li data-en="Tekken God is the one Tekken Lord at the top of this list.">철권신은 철권왕 가운데 이 목록 1위 한 명에게만 붙습니다.</li>
+    <li data-en="Not counted: two launchers on one PC or one internet address, draws. The same opponent within 2 hours counts half from the 4th match and not at all from the 10th.">기록하지 않는 대전: 같은 PC나 같은 인터넷 주소끼리, 무승부. 같은 상대와 2시간 안에는 4판째부터 절반, 10판째부터는 반영하지 않습니다.</li>
+    <li data-en="Leaving in the middle of a match (after its first round) is a loss.">판 도중(첫 라운드가 끝난 뒤) 나가면 패배로 기록됩니다.</li>
+  </ul></div>
+  <div class="card"><h3 data-en="The ranks (Tekken 5)">계급 (철권 5 기준)</h3>
+    <div class="rkladder" id="rkladder"></div>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <p data-en="TEKKEN TAG TOURNAMENT ©BANDAI NAMCO Entertainment Inc. A fan project, not affiliated. The list shows nicknames, ranks and match counts only.">TEKKEN TAG TOURNAMENT ©BANDAI NAMCO Entertainment Inc. 팬 프로젝트이며 공식과 관계없습니다. 목록에는 닉네임·계급·전적만 공개됩니다.</p>
+</div></footer>
+<script src="site.js"></script>
+<script src="ranking.js"></script>
+</body>
+</html>
