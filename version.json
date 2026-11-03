@@ -1,47 +1,47 @@
 {
-  "version": "0.2.13",
+  "version": "0.2.14",
   "url": "https://tekkentag.seibucup.online/#download",
-  "notes": "",
+  "notes": "하단 HUD를 스파2 CE 스타일로 새로 단장: 입력 장치, 1P/2P, 닉네임, 계급, 핑, 가운데 지연·되감기·연결 방식",
   "files": [
     {
       "path": "TTTLauncher.exe",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.13/TTTLauncher.exe",
-      "sha256": "935be75c5275a426cc11ed773309384cce31320c973253c7cadacc8b51add1e4",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.14/TTTLauncher.exe",
+      "sha256": "824e954610d1b540543882786951b60866eef4794d473b9bf61dd5ebbba4fe20",
       "size": 113638520
     },
     {
       "path": "netplay/tttnet.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.13/tttnet.lua",
-      "sha256": "69a4bfb23d0e0d3f1dc508ace4fb4556b05627c427b31c8e39f70221f60045f8",
-      "size": 49518
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.14/tttnet.lua",
+      "sha256": "c3c36fc13af0e8c407df14c6e69a31a06240a6471eece6f17b4ebc4537bdde97",
+      "size": 50584
     },
     {
       "path": "netplay/tttrb.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.13/tttrb.lua",
-      "sha256": "0fac5c9b03c6fe51cf8c4273a6d12336fbe8fbe5e5ea4600f8ee4e44e5b22c71",
-      "size": 64984
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.14/tttrb.lua",
+      "sha256": "b09192d6096a93cf8ed0229c212157e424d1e64576bef002cef1d4f5c7781519",
+      "size": 66050
     },
     {
       "path": "netplay/tttkeys.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.13/tttkeys.lua",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.14/tttkeys.lua",
       "sha256": "bb68b38d0e03b0ee6e75ef7f7cbcc0493033c58dc1f1573053634a5bd0de207a",
       "size": 2974
     },
     {
       "path": "netplay/tttsolo.lua",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.13/tttsolo.lua",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.14/tttsolo.lua",
       "sha256": "c48ddea74441fd8c68c572b6e5add6a790ed8e39e1a6b807eb78ef3ee41abb77",
       "size": 2833
     },
     {
       "path": "netplay/at28c16",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.13/at28c16",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.14/at28c16",
       "sha256": "7d4b151f9dc79c773abdc981c0cd40d71ad74fe0771c55bfc09573ec7f2fa34f",
       "size": 2080
     },
     {
       "path": "netplay/mame.exe",
-      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.13/mame.exe",
+      "url": "https://github.com/TheGuyV/tekkentag/releases/download/v0.2.14/mame.exe",
       "sha256": "e8ef90dd4feec32db2a1f59f3ec49361e1adbc86d20e99de9a10e3563e362966",
       "size": 56363008
     }
